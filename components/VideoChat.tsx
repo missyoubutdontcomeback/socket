@@ -149,23 +149,23 @@ export default function VideoChat({ userConfig, onStop }: VideoChatProps) {
                 });
                 console.log('✅ Camera initialized successfully');
             }
+            return true;
         } catch (mediaError: any) {
             console.error('❌ Camera error:', mediaError);
             setHasCamera(false);
-            setStatus('⚠️ ไม่สามารถเข้าถึงกล้อง แต่คุณยังสามารถดูกล้องคู่สนทนาได้');
-
-            // สร้าง empty stream เพื่อให้ WebRTC ยังทำงานได้
-            // @ts-ignore
-            const emptyStream = new MediaStream();
-            localStreamRef.current = emptyStream;
-            console.log('📹 Using empty stream, can still receive partner video');
+            setStatus('⚠️ ไม่พบกล้อง กรุณาอนุญาตการเข้าถึงกล้องและไมค์');
+            return false;
         }
     };
 
     const handleStart = async () => {
-        await initializeMedia();
+        const success = await initializeMedia();
+        if (!success) {
+            setStatus('⚠️ กรุณาอนุญาตการเข้าถึงกล้องและไมค์ก่อนเริ่มใช้งาน');
+            return;
+        }
         setIsStarted(true);
-        // ให้เริ่มค้นหาได้เลย ไม่ว่ากล้องจะเปิดหรือไม่
+        // รอให้กล้องเริ่มทำงานก่อนแสดงสถานะ
         setTimeout(() => {
             setStatus('กดปุ่ม "ถัดไป" เพื่อเริ่มค้นหาคู่สนทนา');
         }, 500);
@@ -330,14 +330,10 @@ export default function VideoChat({ userConfig, onStop }: VideoChatProps) {
 
         const pc = new RTCPeerConnection(configuration);
 
-        // เพิ่ม tracks ถ้ามี (ถ้าไม่มีก็ยังสร้าง connection ได้)
-        if (localStreamRef.current && localStreamRef.current.getTracks().length > 0) {
+        if (localStreamRef.current) {
             localStreamRef.current.getTracks().forEach(track => {
                 pc.addTrack(track, localStreamRef.current!);
             });
-            console.log('📤 Added local tracks to peer connection');
-        } else {
-            console.log('📭 No local tracks, but connection can still receive remote video');
         }
 
         pc.ontrack = (event) => {
@@ -393,6 +389,11 @@ export default function VideoChat({ userConfig, onStop }: VideoChatProps) {
     };
 
     const findPartner = () => {
+        if (!localStreamRef.current || !hasCamera) {
+            setStatus('⚠️ กรุณาเปิดกล้องและไมค์ก่อนค้นหาคู่สนทนา');
+            return;
+        }
+
         setStatus('กำลังค้นหาคู่สนทนา...');
         setPartnerCountry('');
         setPartnerProvince('');
