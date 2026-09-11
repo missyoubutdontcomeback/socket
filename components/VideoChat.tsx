@@ -107,7 +107,7 @@ export default function VideoChat({ userConfig, onStop }: VideoChatProps) {
     }, [isStarted]);
 
     const initializeSocket = () => {
-        socketRef.current = io('http://localhost:3001');
+        socketRef.current = io('https://socket-production-686f.up.railway.app');
         const socket = socketRef.current;
 
         // ส่ง fingerprint ทันทีหลังเชื่อมต่อ
