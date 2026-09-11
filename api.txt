@@ -1,0 +1,1168 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta content="" name="description">
+	<meta content="True" name="HandheldFriendly">
+	<meta content="320" name="MobileOptimized">
+	<meta content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+	<title>FlagsAPI - Country Flags API</title>
+	<link href="/img/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+	<link href="/img/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+	<link href="/img/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+	<link href="/img/site.webmanifest" rel="manifest">
+	<link color="#0289af" href="img/safari-pinned-tab.svg" rel="mask-icon">
+	<meta content="#ffffff" name="msapplication-TileColor">
+	<meta content="#ffffff" name="theme-color">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:700,300" rel="stylesheet" type="text/css">
+	<link href="/css/style.css" rel="stylesheet">
+  	<link href="/css_old/style.css" rel="stylesheet">
+	<link href="/css/prettify.css" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+		<nav class="nav-principale">
+			<nav class="navigation--button">
+				<div class="material--burger"> <span></span> </div>
+			</nav>
+			<div class="grid-container grid-container-padded fluid">
+				<div class="grid-x grid-margin-x bg_menu">
+					<ul class="menu small-12 cell">
+						<li class="li_countries"> <a class="countries" href="/#quick">Quick start</a> </li>
+						<li class="li_countries"> <a class="countries" href="/#countries">Countries</a> </li>
+						<li class="li_logo">
+							<h1>
+                  <a class="no_css h1_hidden logo" href="#body">
+                    FlagsAPI.io
+                    <img alt="Logo" src="img/logo-countryflags.png">
+                  </a>
+                </h1> </li>
+						<li class="li_countries"> <a class="countries" href="/#themes">Themes</a> </li>
+						<li class="li_countries"> <a class="countries" href="/#sizes">Sizes</a> </li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<main id="main">
+    
+		<section>
+			<div class="grid-container grid-container-padded">
+				<div class="grid-x grid-margin-x">
+					<div class="cell small-12"></div>
+				</div>
+			</div>
+		</section>
+		<section class="quickstart padding_section background_gradient" id="quick">
+			<div class="grid-container grid-container-padded">
+				<div class="grid-x grid-margin-x align-middle">
+					<h2 class="cell small-12 medium-12 large-6">
+              Quick start
+            </h2>
+					<div class="cell small-12 medium-12 large-6">
+						<!-- <p><img src="https://flagsapi.com/:country_code/:style/:size.png"></p> -->
+						<!-- HTML generated using hilite.me -->
+						<div class="scrollbars_container" style="background: #006388; overflow:auto;width:auto;border:solid #84e0dd;border-width:.1em .1em .1em .8em;padding:.2em .6em;"> <pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;</span><span style="color: #f8f8f2">img</span> <span style="color: #f8f8f2">src</span><span style="color: #f92672">=</span><span style="color: #e6db74">"https://flagsapi.com/:country_code/:style/:size.png"</span><span style="color: #f92672">&gt;</span></pre> </div>
+						<h3>Example</h3>
+						<!--
+                <p><img src="https://flagsapi.com/BE/flat/64.png"></p>
+                <p><img src="https://flagsapi.com/BE/shiny/64.png"></p>
+              -->
+						<!-- HTML generated using hilite.me -->
+						<div class="scrollbars_container" style="background: #006388; overflow:auto;width:auto;border:solid #84e0dd;border-width:.1em .1em .1em .8em;padding:.2em .6em;"> <pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;</span><span style="color: #f8f8f2">img</span> <span style="color: #f8f8f2">src</span><span style="color: #f92672">=</span><span style="color: #e6db74">"https://flagsapi.com/BE/flat/64.png"</span><span style="color: #f92672">&gt;</span></pre> <pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;</span><span style="color: #f8f8f2">img</span> <span style="color: #f8f8f2">src</span><span style="color: #f92672">=</span><span style="color: #e6db74">"https://flagsapi.com/BE/shiny/64.png"</span><span style="color: #f92672">&gt;</span></pre> </div>
+						<h3>Result</h3>
+						<div> <img src="https://flagsapi.com/BE/flat/64.png"> <span class="ml10">Flat</span> </div>
+						<div class="mb40"> <img src="https://flagsapi.com/BE/shiny/64.png"> <span class="ml10">Shiny</span> </div> <a class="cta" href="#countries">Discover all supported Countries</a>
+
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="block_countries padding_section" id="countries">
+			<div class="grid-container grid-container-padded fluid">
+				<h2 class="text-center">Supported countries</h2>
+				<h3 class="text-center mb30 opacity_75">Hover to see shiny flag</h3>
+				<div class="grid-x grid-margin-x">
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/AD/flat/64.png">
+						<p class="mb0 bold">AD</p>
+						<p>Andorra</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/AE/flat/64.png">
+						<p class="mb0 bold">AE</p>
+						<p>United Arab Emirates</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/AF/flat/64.png">
+						<p class="mb0 bold">AF</p>
+						<p>Afghanistan</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/AG/flat/64.png">
+						<p class="mb0 bold">AG</p>
+						<p>Antigua and Barbuda</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/AI/flat/64.png">
+						<p class="mb0 bold">AI</p>
+						<p>Anguilla</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/AH/flat/64.png">
+						<p class="mb0 bold">AH</p>
+						<p></p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/AK/flat/64.png">
+						<p class="mb0 bold">AK</p>
+						<p></p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/AL/flat/64.png">
+						<p class="mb0 bold">AL</p>
+						<p>Albania</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/AM/flat/64.png">
+						<p class="mb0 bold">AM</p>
+						<p>Armenia</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/AN/flat/64.png">
+						<p class="mb0 bold">AN</p>
+						<p>Netherlands Antilles</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/AO/flat/64.png">
+						<p class="mb0 bold">AO</p>
+						<p>Angola</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/AQ/flat/64.png">
+						<p class="mb0 bold">AQ</p>
+						<p>Antarctica</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/AR/flat/64.png">
+						<p class="mb0 bold">AR</p>
+						<p>Argentina</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/AS/flat/64.png">
+						<p class="mb0 bold">AS</p>
+						<p>American Samoa</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/AT/flat/64.png">
+						<p class="mb0 bold">AT</p>
+						<p>Austria</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/AU/flat/64.png">
+						<p class="mb0 bold">AU</p>
+						<p>Australia</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/AW/flat/64.png">
+						<p class="mb0 bold">AW</p>
+						<p>Aruba</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/AX/flat/64.png">
+						<p class="mb0 bold">AX</p>
+						<p>Åland Islands</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/AZ/flat/64.png">
+						<p class="mb0 bold">AZ</p>
+						<p>Azerbaijan</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/BA/flat/64.png">
+						<p class="mb0 bold">BA</p>
+						<p>Bosnia and Herzegovina</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/BB/flat/64.png">
+						<p class="mb0 bold">BB</p>
+						<p>Barbados</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/BD/flat/64.png">
+						<p class="mb0 bold">BD</p>
+						<p>Bangladesh</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/BE/flat/64.png">
+						<p class="mb0 bold">BE</p>
+						<p>Belgium</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/BF/flat/64.png">
+						<p class="mb0 bold">BF</p>
+						<p>Burkina Faso</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/BG/flat/64.png">
+						<p class="mb0 bold">BG</p>
+						<p>Bulgaria</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/BH/flat/64.png">
+						<p class="mb0 bold">BH</p>
+						<p>Bahrain</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/BI/flat/64.png">
+						<p class="mb0 bold">BI</p>
+						<p>Burundi</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/BJ/flat/64.png">
+						<p class="mb0 bold">BJ</p>
+						<p>Benin</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/BL/flat/64.png">
+						<p class="mb0 bold">BL</p>
+						<p>Saint Barthélemy</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/BM/flat/64.png">
+						<p class="mb0 bold">BM</p>
+						<p>Bermuda</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/BN/flat/64.png">
+						<p class="mb0 bold">BN</p>
+						<p>Brunei Darussalam</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/BO/flat/64.png">
+						<p class="mb0 bold">BO</p>
+						<p>Bolivia</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/BQ/flat/64.png">
+						<p class="mb0 bold">BQ</p>
+						<p>Bonaire, Sint Eustatius and Saba</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/BR/flat/64.png">
+						<p class="mb0 bold">BR</p>
+						<p>Brazil</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/BS/flat/64.png">
+						<p class="mb0 bold">BS</p>
+						<p>Bahamas</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/BT/flat/64.png">
+						<p class="mb0 bold">BT</p>
+						<p>Bhutan</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/BV/flat/64.png">
+						<p class="mb0 bold">BV</p>
+						<p>Bouvet Island</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/BW/flat/64.png">
+						<p class="mb0 bold">BW</p>
+						<p>Botswana</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/BY/flat/64.png">
+						<p class="mb0 bold">BY</p>
+						<p>Belarus</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/BZ/flat/64.png">
+						<p class="mb0 bold">BZ</p>
+						<p>Belize</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/CA/flat/64.png">
+						<p class="mb0 bold">CA</p>
+						<p>Canada</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/CC/flat/64.png">
+						<p class="mb0 bold">CC</p>
+						<p>Cocos (Keeling) Islands</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/CD/flat/64.png">
+						<p class="mb0 bold">CD</p>
+						<p>Congo, The Democratic Republic Of The</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/CF/flat/64.png">
+						<p class="mb0 bold">CF</p>
+						<p>Central African Republic</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/CG/flat/64.png">
+						<p class="mb0 bold">CG</p>
+						<p>Congo</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/CH/flat/64.png">
+						<p class="mb0 bold">CH</p>
+						<p>Switzerland</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/CI/flat/64.png">
+						<p class="mb0 bold">CI</p>
+						<p>Côte D'Ivoire</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/CK/flat/64.png">
+						<p class="mb0 bold">CK</p>
+						<p>Cook Islands</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/CL/flat/64.png">
+						<p class="mb0 bold">CL</p>
+						<p>Chile</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/CM/flat/64.png">
+						<p class="mb0 bold">CM</p>
+						<p>Cameroon</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/CN/flat/64.png">
+						<p class="mb0 bold">CN</p>
+						<p>China</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/CO/flat/64.png">
+						<p class="mb0 bold">CO</p>
+						<p>Colombia</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/CR/flat/64.png">
+						<p class="mb0 bold">CR</p>
+						<p>Costa Rica</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/CU/flat/64.png">
+						<p class="mb0 bold">CU</p>
+						<p>Cuba</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/CV/flat/64.png">
+						<p class="mb0 bold">CV</p>
+						<p>Cape Verde</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/CW/flat/64.png">
+						<p class="mb0 bold">CW</p>
+						<p>Curaçao</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/CX/flat/64.png">
+						<p class="mb0 bold">CX</p>
+						<p>Christmas Island</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/CY/flat/64.png">
+						<p class="mb0 bold">CY</p>
+						<p>Cyprus</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/CZ/flat/64.png">
+						<p class="mb0 bold">CZ</p>
+						<p>Czech Republic</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/DE/flat/64.png">
+						<p class="mb0 bold">DE</p>
+						<p>Germany</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/DJ/flat/64.png">
+						<p class="mb0 bold">DJ</p>
+						<p>Djibouti</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/DK/flat/64.png">
+						<p class="mb0 bold">DK</p>
+						<p>Denmark</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/DM/flat/64.png">
+						<p class="mb0 bold">DM</p>
+						<p>Dominica</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/DO/flat/64.png">
+						<p class="mb0 bold">DO</p>
+						<p>Dominican Republic</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/DZ/flat/64.png">
+						<p class="mb0 bold">DZ</p>
+						<p>Algeria</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/EC/flat/64.png">
+						<p class="mb0 bold">EC</p>
+						<p>Ecuador</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/EE/flat/64.png">
+						<p class="mb0 bold">EE</p>
+						<p>Estonia</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/EG/flat/64.png">
+						<p class="mb0 bold">EG</p>
+						<p>Egypt</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/EH/flat/64.png">
+						<p class="mb0 bold">EH</p>
+						<p>Western Sahara</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/ER/flat/64.png">
+						<p class="mb0 bold">ER</p>
+						<p>Eritrea</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/ES/flat/64.png">
+						<p class="mb0 bold">ES</p>
+						<p>Spain</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/ET/flat/64.png">
+						<p class="mb0 bold">ET</p>
+						<p>Ethiopia</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/EU/flat/64.png">
+						<p class="mb0 bold">EU</p>
+						<p></p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/FI/flat/64.png">
+						<p class="mb0 bold">FI</p>
+						<p>Finland</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/FJ/flat/64.png">
+						<p class="mb0 bold">FJ</p>
+						<p>Fiji</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/FK/flat/64.png">
+						<p class="mb0 bold">FK</p>
+						<p>Falkland Islands (Malvinas)</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/FM/flat/64.png">
+						<p class="mb0 bold">FM</p>
+						<p>Micronesia, Federated States Of</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/FO/flat/64.png">
+						<p class="mb0 bold">FO</p>
+						<p>Faroe Islands</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/FR/flat/64.png">
+						<p class="mb0 bold">FR</p>
+						<p>France</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/GA/flat/64.png">
+						<p class="mb0 bold">GA</p>
+						<p>Gabon</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/GB/flat/64.png">
+						<p class="mb0 bold">GB</p>
+						<p>United Kingdom</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/GD/flat/64.png">
+						<p class="mb0 bold">GD</p>
+						<p>Grenada</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/GE/flat/64.png">
+						<p class="mb0 bold">GE</p>
+						<p>Georgia</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/GF/flat/64.png">
+						<p class="mb0 bold">GF</p>
+						<p>French Guiana</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/GG/flat/64.png">
+						<p class="mb0 bold">GG</p>
+						<p>Guernsey</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/GH/flat/64.png">
+						<p class="mb0 bold">GH</p>
+						<p>Ghana</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/GI/flat/64.png">
+						<p class="mb0 bold">GI</p>
+						<p>Gibraltar</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/GL/flat/64.png">
+						<p class="mb0 bold">GL</p>
+						<p>Greenland</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/GM/flat/64.png">
+						<p class="mb0 bold">GM</p>
+						<p>Gambia</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/GN/flat/64.png">
+						<p class="mb0 bold">GN</p>
+						<p>Guinea</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/GP/flat/64.png">
+						<p class="mb0 bold">GP</p>
+						<p>Guadeloupe</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/GQ/flat/64.png">
+						<p class="mb0 bold">GQ</p>
+						<p>Equatorial Guinea</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/GR/flat/64.png">
+						<p class="mb0 bold">GR</p>
+						<p>Greece</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/GS/flat/64.png">
+						<p class="mb0 bold">GS</p>
+						<p>South Georgia and the South Sandwich Islands</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/GT/flat/64.png">
+						<p class="mb0 bold">GT</p>
+						<p>Guatemala</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/GU/flat/64.png">
+						<p class="mb0 bold">GU</p>
+						<p>Guam</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/GW/flat/64.png">
+						<p class="mb0 bold">GW</p>
+						<p>Guinea-Bissau</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/GY/flat/64.png">
+						<p class="mb0 bold">GY</p>
+						<p>Guyana</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/HK/flat/64.png">
+						<p class="mb0 bold">HK</p>
+						<p>Hong Kong</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/HM/flat/64.png">
+						<p class="mb0 bold">HM</p>
+						<p>Heard and McDonald Islands</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/HN/flat/64.png">
+						<p class="mb0 bold">HN</p>
+						<p>Honduras</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/HR/flat/64.png">
+						<p class="mb0 bold">HR</p>
+						<p>Croatia</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/HT/flat/64.png">
+						<p class="mb0 bold">HT</p>
+						<p>Haiti</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/HU/flat/64.png">
+						<p class="mb0 bold">HU</p>
+						<p>Hungary</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/IC/flat/64.png">
+						<p class="mb0 bold">IC</p>
+						<p></p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/ID/flat/64.png">
+						<p class="mb0 bold">ID</p>
+						<p>Indonesia</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/IE/flat/64.png">
+						<p class="mb0 bold">IE</p>
+						<p>Ireland</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/IL/flat/64.png">
+						<p class="mb0 bold">IL</p>
+						<p>Israel</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/IM/flat/64.png">
+						<p class="mb0 bold">IM</p>
+						<p>Isle of Man</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/IN/flat/64.png">
+						<p class="mb0 bold">IN</p>
+						<p>India</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/IO/flat/64.png">
+						<p class="mb0 bold">IO</p>
+						<p>British Indian Ocean Territory</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/IQ/flat/64.png">
+						<p class="mb0 bold">IQ</p>
+						<p>Iraq</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/IR/flat/64.png">
+						<p class="mb0 bold">IR</p>
+						<p>Iran, Islamic Republic Of</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/IS/flat/64.png">
+						<p class="mb0 bold">IS</p>
+						<p>Iceland</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/IT/flat/64.png">
+						<p class="mb0 bold">IT</p>
+						<p>Italy</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/JE/flat/64.png">
+						<p class="mb0 bold">JE</p>
+						<p>Jersey</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/JM/flat/64.png">
+						<p class="mb0 bold">JM</p>
+						<p>Jamaica</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/JO/flat/64.png">
+						<p class="mb0 bold">JO</p>
+						<p>Jordan</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/JP/flat/64.png">
+						<p class="mb0 bold">JP</p>
+						<p>Japan</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/KE/flat/64.png">
+						<p class="mb0 bold">KE</p>
+						<p>Kenya</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/KG/flat/64.png">
+						<p class="mb0 bold">KG</p>
+						<p>Kyrgyzstan</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/KH/flat/64.png">
+						<p class="mb0 bold">KH</p>
+						<p>Cambodia</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/KI/flat/64.png">
+						<p class="mb0 bold">KI</p>
+						<p>Kiribati</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/KM/flat/64.png">
+						<p class="mb0 bold">KM</p>
+						<p>Comoros</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/KN/flat/64.png">
+						<p class="mb0 bold">KN</p>
+						<p>Saint Kitts And Nevis</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/KP/flat/64.png">
+						<p class="mb0 bold">KP</p>
+						<p>Korea, Democratic People's Republic Of</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/KR/flat/64.png">
+						<p class="mb0 bold">KR</p>
+						<p>Korea, Republic of</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/KW/flat/64.png">
+						<p class="mb0 bold">KW</p>
+						<p>Kuwait</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/KY/flat/64.png">
+						<p class="mb0 bold">KY</p>
+						<p>Cayman Islands</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/KZ/flat/64.png">
+						<p class="mb0 bold">KZ</p>
+						<p>Kazakhstan</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/LA/flat/64.png">
+						<p class="mb0 bold">LA</p>
+						<p>Lao People's Democratic Republic</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/LB/flat/64.png">
+						<p class="mb0 bold">LB</p>
+						<p>Lebanon</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/LC/flat/64.png">
+						<p class="mb0 bold">LC</p>
+						<p>Saint Lucia</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/LI/flat/64.png">
+						<p class="mb0 bold">LI</p>
+						<p>Liechtenstein</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/LK/flat/64.png">
+						<p class="mb0 bold">LK</p>
+						<p>Sri Lanka</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/LR/flat/64.png">
+						<p class="mb0 bold">LR</p>
+						<p>Liberia</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/LS/flat/64.png">
+						<p class="mb0 bold">LS</p>
+						<p>Lesotho</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/LT/flat/64.png">
+						<p class="mb0 bold">LT</p>
+						<p>Lithuania</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/LU/flat/64.png">
+						<p class="mb0 bold">LU</p>
+						<p>Luxembourg</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/LV/flat/64.png">
+						<p class="mb0 bold">LV</p>
+						<p>Latvia</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/LY/flat/64.png">
+						<p class="mb0 bold">LY</p>
+						<p>Libya</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/MA/flat/64.png">
+						<p class="mb0 bold">MA</p>
+						<p>Morocco</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/MC/flat/64.png">
+						<p class="mb0 bold">MC</p>
+						<p>Monaco</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/MD/flat/64.png">
+						<p class="mb0 bold">MD</p>
+						<p>Moldova, Republic of</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/ME/flat/64.png">
+						<p class="mb0 bold">ME</p>
+						<p>Montenegro</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/MF/flat/64.png">
+						<p class="mb0 bold">MF</p>
+						<p>Saint Martin</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/MG/flat/64.png">
+						<p class="mb0 bold">MG</p>
+						<p>Madagascar</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/MH/flat/64.png">
+						<p class="mb0 bold">MH</p>
+						<p>Marshall Islands</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/MK/flat/64.png">
+						<p class="mb0 bold">MK</p>
+						<p>Macedonia, the Former Yugoslav Republic Of</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/ML/flat/64.png">
+						<p class="mb0 bold">ML</p>
+						<p>Mali</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/MM/flat/64.png">
+						<p class="mb0 bold">MM</p>
+						<p>Myanmar</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/MN/flat/64.png">
+						<p class="mb0 bold">MN</p>
+						<p>Mongolia</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/MO/flat/64.png">
+						<p class="mb0 bold">MO</p>
+						<p>Macao</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/MP/flat/64.png">
+						<p class="mb0 bold">MP</p>
+						<p>Northern Mariana Islands</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/MQ/flat/64.png">
+						<p class="mb0 bold">MQ</p>
+						<p>Martinique</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/MR/flat/64.png">
+						<p class="mb0 bold">MR</p>
+						<p>Mauritania</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/MS/flat/64.png">
+						<p class="mb0 bold">MS</p>
+						<p>Montserrat</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/MT/flat/64.png">
+						<p class="mb0 bold">MT</p>
+						<p>Malta</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/MU/flat/64.png">
+						<p class="mb0 bold">MU</p>
+						<p>Mauritius</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/MV/flat/64.png">
+						<p class="mb0 bold">MV</p>
+						<p>Maldives</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/MW/flat/64.png">
+						<p class="mb0 bold">MW</p>
+						<p>Malawi</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/MX/flat/64.png">
+						<p class="mb0 bold">MX</p>
+						<p>Mexico</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/MY/flat/64.png">
+						<p class="mb0 bold">MY</p>
+						<p>Malaysia</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/MZ/flat/64.png">
+						<p class="mb0 bold">MZ</p>
+						<p>Mozambique</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/NA/flat/64.png">
+						<p class="mb0 bold">NA</p>
+						<p>Namibia</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/NC/flat/64.png">
+						<p class="mb0 bold">NC</p>
+						<p>New Caledonia</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/NE/flat/64.png">
+						<p class="mb0 bold">NE</p>
+						<p>Niger</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/NF/flat/64.png">
+						<p class="mb0 bold">NF</p>
+						<p>Norfolk Island</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/NG/flat/64.png">
+						<p class="mb0 bold">NG</p>
+						<p>Nigeria</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/NI/flat/64.png">
+						<p class="mb0 bold">NI</p>
+						<p>Nicaragua</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/NL/flat/64.png">
+						<p class="mb0 bold">NL</p>
+						<p>Netherlands</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/NO/flat/64.png">
+						<p class="mb0 bold">NO</p>
+						<p>Norway</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/NP/flat/64.png">
+						<p class="mb0 bold">NP</p>
+						<p>Nepal</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/NR/flat/64.png">
+						<p class="mb0 bold">NR</p>
+						<p>Nauru</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/NU/flat/64.png">
+						<p class="mb0 bold">NU</p>
+						<p>Niue</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/NY/flat/64.png">
+						<p class="mb0 bold">NY</p>
+						<p></p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/NZ/flat/64.png">
+						<p class="mb0 bold">NZ</p>
+						<p>New Zealand</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/OM/flat/64.png">
+						<p class="mb0 bold">OM</p>
+						<p>Oman</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/PA/flat/64.png">
+						<p class="mb0 bold">PA</p>
+						<p>Panama</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/PE/flat/64.png">
+						<p class="mb0 bold">PE</p>
+						<p>Peru</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/PF/flat/64.png">
+						<p class="mb0 bold">PF</p>
+						<p>French Polynesia</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/PG/flat/64.png">
+						<p class="mb0 bold">PG</p>
+						<p>Papua New Guinea</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/PH/flat/64.png">
+						<p class="mb0 bold">PH</p>
+						<p>Philippines</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/PK/flat/64.png">
+						<p class="mb0 bold">PK</p>
+						<p>Pakistan</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/PL/flat/64.png">
+						<p class="mb0 bold">PL</p>
+						<p>Poland</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/PM/flat/64.png">
+						<p class="mb0 bold">PM</p>
+						<p>Saint Pierre And Miquelon</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/PN/flat/64.png">
+						<p class="mb0 bold">PN</p>
+						<p>Pitcairn</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/PR/flat/64.png">
+						<p class="mb0 bold">PR</p>
+						<p>Puerto Rico</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/PS/flat/64.png">
+						<p class="mb0 bold">PS</p>
+						<p>Palestine, State of</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/PT/flat/64.png">
+						<p class="mb0 bold">PT</p>
+						<p>Portugal</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/PW/flat/64.png">
+						<p class="mb0 bold">PW</p>
+						<p>Palau</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/PY/flat/64.png">
+						<p class="mb0 bold">PY</p>
+						<p>Paraguay</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/QA/flat/64.png">
+						<p class="mb0 bold">QA</p>
+						<p>Qatar</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/RE/flat/64.png">
+						<p class="mb0 bold">RE</p>
+						<p>Réunion</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/RO/flat/64.png">
+						<p class="mb0 bold">RO</p>
+						<p>Romania</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/RS/flat/64.png">
+						<p class="mb0 bold">RS</p>
+						<p>Serbia</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/RU/flat/64.png">
+						<p class="mb0 bold">RU</p>
+						<p>Russian Federation</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/RW/flat/64.png">
+						<p class="mb0 bold">RW</p>
+						<p>Rwanda</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/SA/flat/64.png">
+						<p class="mb0 bold">SA</p>
+						<p>Saudi Arabia</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/SB/flat/64.png">
+						<p class="mb0 bold">SB</p>
+						<p>Solomon Islands</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/SC/flat/64.png">
+						<p class="mb0 bold">SC</p>
+						<p>Seychelles</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/SD/flat/64.png">
+						<p class="mb0 bold">SD</p>
+						<p>Sudan</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/SE/flat/64.png">
+						<p class="mb0 bold">SE</p>
+						<p>Sweden</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/SG/flat/64.png">
+						<p class="mb0 bold">SG</p>
+						<p>Singapore</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/SH/flat/64.png">
+						<p class="mb0 bold">SH</p>
+						<p>Saint Helena</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/SI/flat/64.png">
+						<p class="mb0 bold">SI</p>
+						<p>Slovenia</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/SJ/flat/64.png">
+						<p class="mb0 bold">SJ</p>
+						<p>Svalbard And Jan Mayen</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/SK/flat/64.png">
+						<p class="mb0 bold">SK</p>
+						<p>Slovakia</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/SL/flat/64.png">
+						<p class="mb0 bold">SL</p>
+						<p>Sierra Leone</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/SM/flat/64.png">
+						<p class="mb0 bold">SM</p>
+						<p>San Marino</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/SN/flat/64.png">
+						<p class="mb0 bold">SN</p>
+						<p>Senegal</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/SO/flat/64.png">
+						<p class="mb0 bold">SO</p>
+						<p>Somalia</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/SR/flat/64.png">
+						<p class="mb0 bold">SR</p>
+						<p>Suriname</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/SS/flat/64.png">
+						<p class="mb0 bold">SS</p>
+						<p>South Sudan</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/ST/flat/64.png">
+						<p class="mb0 bold">ST</p>
+						<p>Sao Tome and Principe</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/SV/flat/64.png">
+						<p class="mb0 bold">SV</p>
+						<p>El Salvador</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/SX/flat/64.png">
+						<p class="mb0 bold">SX</p>
+						<p>Sint Maarten</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/SY/flat/64.png">
+						<p class="mb0 bold">SY</p>
+						<p>Syrian Arab Republic</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/SZ/flat/64.png">
+						<p class="mb0 bold">SZ</p>
+						<p>Swaziland</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/TC/flat/64.png">
+						<p class="mb0 bold">TC</p>
+						<p>Turks and Caicos Islands</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/TD/flat/64.png">
+						<p class="mb0 bold">TD</p>
+						<p>Chad</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/TF/flat/64.png">
+						<p class="mb0 bold">TF</p>
+						<p>French Southern Territories</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/TG/flat/64.png">
+						<p class="mb0 bold">TG</p>
+						<p>Togo</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/TH/flat/64.png">
+						<p class="mb0 bold">TH</p>
+						<p>Thailand</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/TJ/flat/64.png">
+						<p class="mb0 bold">TJ</p>
+						<p>Tajikistan</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/TK/flat/64.png">
+						<p class="mb0 bold">TK</p>
+						<p>Tokelau</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/TL/flat/64.png">
+						<p class="mb0 bold">TL</p>
+						<p>Timor-Leste</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/TM/flat/64.png">
+						<p class="mb0 bold">TM</p>
+						<p>Turkmenistan</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/TN/flat/64.png">
+						<p class="mb0 bold">TN</p>
+						<p>Tunisia</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/TO/flat/64.png">
+						<p class="mb0 bold">TO</p>
+						<p>Tonga</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/TR/flat/64.png">
+						<p class="mb0 bold">TR</p>
+						<p>Turkey</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/TT/flat/64.png">
+						<p class="mb0 bold">TT</p>
+						<p>Trinidad and Tobago</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/TV/flat/64.png">
+						<p class="mb0 bold">TV</p>
+						<p>Tuvalu</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/TW/flat/64.png">
+						<p class="mb0 bold">TW</p>
+						<p>Taiwan, Republic Of China</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/TZ/flat/64.png">
+						<p class="mb0 bold">TZ</p>
+						<p>Tanzania, United Republic of</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/UA/flat/64.png">
+						<p class="mb0 bold">UA</p>
+						<p>Ukraine</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/UG/flat/64.png">
+						<p class="mb0 bold">UG</p>
+						<p>Uganda</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/UM/flat/64.png">
+						<p class="mb0 bold">UM</p>
+						<p>United States Minor Outlying Islands</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/US/flat/64.png">
+						<p class="mb0 bold">US</p>
+						<p>United States</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/UY/flat/64.png">
+						<p class="mb0 bold">UY</p>
+						<p>Uruguay</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/UZ/flat/64.png">
+						<p class="mb0 bold">UZ</p>
+						<p>Uzbekistan</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/VA/flat/64.png">
+						<p class="mb0 bold">VA</p>
+						<p>Holy See (Vatican City State)</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/VC/flat/64.png">
+						<p class="mb0 bold">VC</p>
+						<p>Saint Vincent And The Grenadines</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/VE/flat/64.png">
+						<p class="mb0 bold">VE</p>
+						<p>Venezuela, Bolivarian Republic of</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/VG/flat/64.png">
+						<p class="mb0 bold">VG</p>
+						<p>Virgin Islands, British</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/VI/flat/64.png">
+						<p class="mb0 bold">VI</p>
+						<p>Virgin Islands, U.S.</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/VN/flat/64.png">
+						<p class="mb0 bold">VN</p>
+						<p>Vietnam</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/VU/flat/64.png">
+						<p class="mb0 bold">VU</p>
+						<p>Vanuatu</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/WF/flat/64.png">
+						<p class="mb0 bold">WF</p>
+						<p>Wallis and Futuna</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/WS/flat/64.png">
+						<p class="mb0 bold">WS</p>
+						<p>Samoa</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/XK/flat/64.png">
+						<p class="mb0 bold">XK</p>
+						<p></p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/YE/flat/64.png">
+						<p class="mb0 bold">YE</p>
+						<p>Yemen</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/YT/flat/64.png">
+						<p class="mb0 bold">YT</p>
+						<p>Mayotte</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/ZA/flat/64.png">
+						<p class="mb0 bold">ZA</p>
+						<p>South Africa</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/ZM/flat/64.png">
+						<p class="mb0 bold">ZM</p>
+						<p>Zambia</p>
+					</div>
+					<div class="item_country cell small-4 medium-2 large-2"> <img class="theme-flat" src="https://flagsapi.com/ZW/flat/64.png">
+						<p class="mb0 bold">ZW</p>
+						<p>Zimbabwe</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="themes padding_section background_gradient" id="themes">
+			<div class="grid-container grid-container-padded">
+				<div class="grid-x grid-margin-x">
+					<div class="cell small-12 medium-12 large-6">
+						<h3>Themes</h3>
+						<p class="bold">We currently support 2 themes :</p>
+						<p> <strong>flat</strong> provided <a href="https://github.com/gosquared/flags/blob/master/LICENSE.txt" target="_blank">under MIT licence</a> by <a href="https://web.archive.org/web/20201224011657/https://github.com/gosquared/flags" target="_blank">GoSquared</a> </p>
+						<p> <strong>shiny</strong> provided <a href="https://github.com/gosquared/flags/blob/master/LICENSE.txt" target="_blank">under MIT licence</a> by <a href="https://web.archive.org/web/20201224011657/https://github.com/gosquared/flags" target="_blank">GoSquared</a> </p>
+						<p> for both <strong>flat</strong> and <strong>shiny</strong> we created the following missing flags upon users' request : </p>
+						<ul>
+							<li> Sint Maarten <strong>SX</strong> </li>
+							<li> Bonaire, Sint Eustatius and Saba <strong>BQ</strong> </li>
+							<li> Bouvet Island <strong>BV</strong> </li>
+							<li> French Guiana <strong>GF</strong> </li>
+							<li> Guadeloupe <strong>GP</strong> </li>
+							<li> Heard and McDonald Islands <strong>HM</strong> </li>
+							<li> British Indian Ocean Territory <strong>IO</strong> </li>
+							<li> Saint Pierre And Miquelon <strong>PM</strong> </li>
+							<li> Réunion <strong>RE</strong> </li>
+							<li> Svalbard And Jan Mayen <strong>SJ</strong> </li>
+							<li> United States Minor Outlying Islands <strong>UM</strong> </li>
+							<li> Kosovo <strong>XK</strong> </li>
+							<li> Artsakh / Highland Karabakh <strong>AH</strong> </li>
+							<li> Northern Cyprus <strong>NY</strong> </li>
+							<li> Abkhazia <strong>AK</strong> </li>
+						</ul>
+					</div>
+					<div class="cell small-12 medium-12 large-6" id="sizes">
+						<h3>Sizes</h3>
+						<p>Supported sizes are :</p>
+						<ul>
+							<li> <strong>16</strong> for 16px wide flags </li>
+							<li> <strong>24</strong> for 24px wide flags </li>
+							<li> <strong>32</strong> for 32px wide flags </li>
+							<li> <strong>48</strong> for 48px wide flags </li>
+							<li> <strong>64</strong> for 64px wide flags </li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	</main>
+	<footer>
+	</footer>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"69977e306991490ab7229fc2b581cd79","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+
+
+</html>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/prettify/prettify.js" type="text/javascript"></script>
+<script src="/js/layout.js"></script>
