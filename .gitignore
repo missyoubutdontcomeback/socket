@@ -24,6 +24,14 @@ Thumbs.db
 .vscode/
 .idea/
 
+# ไฟล์ที่ไม่ต้องการใน Vercel
+server.js
+dev.js
+start.js
+railway.json
+api.zip
+api.txt
+
 # Misc
 *.swp
 *.swo
