@@ -4,7 +4,7 @@ const { Server } = require('socket.io');
 const httpServer = createServer();
 const io = new Server(httpServer, {
     cors: {
-        origin: ["http://localhost:3000", "https://pigme-debloy.vercel.app"],
+        origin: ["http://localhost:3000", "https://pigme-debloy.vercel.app", "https://socket-production-686f.up.railway.app"],
         methods: ["GET", "POST"]
     }
 });
